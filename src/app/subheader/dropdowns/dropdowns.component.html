@@ -1,0 +1,50 @@
+
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+<body>
+    
+       
+        
+        <ul class="list-inline category-section">
+                <li class="rings-section" (click)="getRings()"><a href="#">rings<i class="fa fa-angle-down down-angle" aria-hidden="true"></i></a>
+                    <ul>
+                            <li [ngClass]="'ringsheadings'" *ngFor="let item of RingsList|keyvalue">{{item.key}}</li>
+                            
+                        </ul>
+                        <ul class="ringsdata">
+                                <li *ngFor="let popularring of RingsList.popularringstypes">
+                                        {{popularring}}</li> 
+                        </ul>
+                        <ul class="ringsdata">
+                                <li *ngFor="let bypricerange of RingsList.bypricerange"> {{bypricerange}}</li>
+                            </ul>
+                            <ul class="ringsdata">
+                                <li *ngFor="let bymetalandstones of RingsList.bymetalandstones">{{bymetalandstones}}</li>
+                            </ul>
+                        
+                </li>
+                <li class="rings-section"><a href="#">Pendents<i class="fa fa-angle-down down-angle" aria-hidden="true"></i></a></li>
+                <li class="rings-section"><a href="#">New Arrivals<i class="fa fa-angle-down down-angle" aria-hidden="true"></i></a></li>
+                <li class="rings-section"><a href="#">Gold coins<i class="fa fa-angle-down down-angle" aria-hidden="true"></i></a></li>
+        </ul>
+       
+       
+    <!--v
+                            <ul>popularringstypes
+                            <li *ngFor="let popularring of RingsList.popularringstypes">
+                                {{popularring}}</li>
+                            </ul>
+                            <ul>bypricerange
+                            <li *ngFor="let bypricerange of RingsList.bypricerange">
+                                {{bypricerange}}</li>
+                            </ul>
+                            <ul>bymetalandstones
+                            <li *ngFor="let bymetalandstones of RingsList.bymetalandstones">
+                                    {{bymetalandstones}}</li>
+                            </ul> v -->
+                             
+                            
+  </body>
+  </html>
