@@ -11,3 +11,24 @@ export class Hero {
     
 	
 }
+export class EarRings 
+{
+    popularearringstypes:any[];
+    bypricerange:any[];
+    bymetalandstones:any[];
+}
+
+export class NewArrivals
+{
+	popularpendentstypes:any[];
+	bypricerange:any[];
+	bymetalandstones:any[];
+
+}
+
+export class GoldCoins{
+	byweight:any[];
+	bydesign:any[]
+
+}
+

@@ -24,6 +24,7 @@ import { JflpaymentsComponent } from './header/jflpayments/jflpayments.component
 import { StorelocatorComponent } from './header/storelocator/storelocator.component';
 import { CorporateComponent } from './header/corporate/corporate.component';
 import { InvestorsComponent } from './header/investors/investors.component';
+import { EventsComponent } from './events/events.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { InvestorsComponent } from './header/investors/investors.component';
     CartComponent,
     DropdownsComponent,
     TabsComponent,
-    MainbodyComponent
+    MainbodyComponent,
+    EventsComponent
   ],
   imports: [
     BrowserModule,

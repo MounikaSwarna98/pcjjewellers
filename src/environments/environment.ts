@@ -5,6 +5,9 @@
 export const environment = {
   production: false,
   Rings_URL: './assets/data/Rings.json',
+  Earrings_url:'./assets/data/earrings.json',
+  NewArrivals_url:"./assets/data/newarrivals.json",
+  goldcoins_url:"./assets/data/goldcoins.json"
 
 };
 

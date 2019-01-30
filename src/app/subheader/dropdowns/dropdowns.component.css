@@ -54,10 +54,10 @@ category-section .down-angle {
     display: inline-block;
     padding-left: 29px;
 }
-.open>.dropdown-menu {
+/*.open>.dropdown-menu {
     display: block;
     width: 600px;
-}
+}*/
 .ringsheading{
     padding-right: 48px;
 }
@@ -71,6 +71,8 @@ category-section .down-angle {
     font-weight: 600;
     border-bottom: 1px solid #dfdfdf;
     text-transform: uppercase;
+    margin-bottom: 12px;
+    padding-bottom: 5px;
 }
 .ringsdata{
     display: inline-block;
@@ -80,4 +82,13 @@ category-section .down-angle {
 }
 .ringslink{
     margin-top: 20px;
+}
+.dropdown-menu{
+    width: 700px;
+}
+.earringsid{
+    padding: 35px;
+}
+.listclass{
+    padding-bottom: 10px;
 }

@@ -13,12 +13,35 @@ export class DropdownsService {
     getRings() {
         return this._http.get<Hero[]>(environment.Rings_URL).pipe();
         
-        
-        
-        
-        
-        
-        
-    }
+        }
+        //service call to get earrings
+        getEarrings(){
+         return  this._http.get(environment.Earrings_url).pipe();
+        }
+
+        //service call to newarrivals
+
+        getNewArrivals(){
+
+          return this._http.get<Hero[]>(environment.NewArrivals_url).pipe();
+        }
+
+        //service call to getgoldcoins
+
+        getGoldCoins(){
+          return this._http.get<Hero[]>(environment.goldcoins_url).pipe();
+        }
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
